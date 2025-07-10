@@ -14,7 +14,7 @@ function Login() {
       { email, password },
       { withCredentials: true }
     );
-    window.location.href = "http://localhost:5173/";
+    window.location.href = "https://zerodha-clon-dashb.vercel.app"; //dashboard URL, adjust as needed
   };
 
   return (
